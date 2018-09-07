@@ -1,0 +1,118 @@
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES001i\GES001i\bin\Debug\GES001i.exe
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES001i\GES001i\bin\Debug\GES001i.pdb
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES001i\GES001i\obj\x86\Debug\GES001i.Properties.Resources.resources
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES001i\GES001i\obj\x86\Debug\GES001i.csproj.GenerateResource.Cache
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES001i\GES001i\obj\x86\Debug\GES001i.exe
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES001i\GES001i\obj\x86\Debug\GES001i.pdb
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES001i\GES001i\obj\x86\Debug\GES001i.frmSetGES.resources
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES001i\GES001i\bin\Debug\Interop.AyudaSpread.dll
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES001i\GES001i\bin\Debug\AxInterop.AyudaSpread.dll
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES001i\GES001i\obj\x86\Debug\Interop.AyudaSpread.dll
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES001i\GES001i\obj\x86\Debug\AxInterop.AyudaSpread.dll
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES001i\GES001i\obj\x86\Debug\GES001i.csproj.ResolveComReference.cache
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES001i\GES001i\bin\Debug\GES001i.exe.config
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES001i\GES001i\obj\x86\Debug\GES001i.csprojResolveAssemblyReference.cache
+D:\ER\GES\GES001i\GES001i\bin\Debug\GES001i.exe.config
+D:\ER\GES\GES001i\GES001i\obj\x86\Debug\Interop.AyudaSpread.dll
+D:\ER\GES\GES001i\GES001i\obj\x86\Debug\AxInterop.AyudaSpread.dll
+D:\ER\GES\GES001i\GES001i\obj\x86\Debug\GES001i.csproj.ResolveComReference.cache
+D:\ER\GES\GES001i\GES001i\obj\x86\Debug\GES001i.exe
+D:\ER\GES\GES001i\GES001i\obj\x86\Debug\GES001i.pdb
+D:\ER\GES\GES001i\GES001i\bin\Debug\GES001i.exe
+D:\ER\GES\GES001i\GES001i\bin\Debug\GES001i.pdb
+D:\ER\GES\GES001i\GES001i\bin\Debug\Interop.AyudaSpread.dll
+D:\ER\GES\GES001i\GES001i\bin\Debug\AxInterop.AyudaSpread.dll
+D:\ER\GES\GES001i\GES001i\obj\x86\Debug\GES001i.csprojResolveAssemblyReference.cache
+D:\ER\GES\GES001i\GES001i\obj\x86\Debug\GES001i.frmSetGES.resources
+D:\ER\GES\GES001i\GES001i\obj\x86\Debug\GES001i.Properties.Resources.resources
+D:\ER\GES\GES001i\GES001i\obj\x86\Debug\GES001i.csproj.GenerateResource.Cache
+C:\Users\gonzalo.figueroa\Desktop\GES\GES001i\GES001i\bin\Debug\GES001i.exe.config
+C:\Users\gonzalo.figueroa\Desktop\GES\GES001i\GES001i\obj\x86\Debug\Interop.AyudaSpread.dll
+C:\Users\gonzalo.figueroa\Desktop\GES\GES001i\GES001i\obj\x86\Debug\AxInterop.AyudaSpread.dll
+C:\Users\gonzalo.figueroa\Desktop\GES\GES001i\GES001i\obj\x86\Debug\GES001i.csproj.ResolveComReference.cache
+C:\Users\gonzalo.figueroa\Desktop\GES\GES001i\GES001i\obj\x86\Debug\GES001i.exe
+C:\Users\gonzalo.figueroa\Desktop\GES\GES001i\GES001i\obj\x86\Debug\GES001i.pdb
+C:\Users\gonzalo.figueroa\Desktop\GES\GES001i\GES001i\bin\Debug\GES001i.exe
+C:\Users\gonzalo.figueroa\Desktop\GES\GES001i\GES001i\bin\Debug\GES001i.pdb
+C:\Users\gonzalo.figueroa\Desktop\GES\GES001i\GES001i\bin\Debug\Interop.AyudaSpread.dll
+C:\Users\gonzalo.figueroa\Desktop\GES\GES001i\GES001i\bin\Debug\AxInterop.AyudaSpread.dll
+C:\Users\gonzalo.figueroa\Desktop\GES\GES001i\GES001i\obj\x86\Debug\GES001i.frmSetGES.resources
+C:\Users\gonzalo.figueroa\Desktop\GES\GES001i\GES001i\obj\x86\Debug\GES001i.Properties.Resources.resources
+C:\Users\gonzalo.figueroa\Desktop\GES\GES001i\GES001i\obj\x86\Debug\GES001i.frmMantConfGES.resources
+C:\Users\gonzalo.figueroa\Desktop\GES\GES001i\GES001i\obj\x86\Debug\GES001i.csprojResolveAssemblyReference.cache
+C:\Users\gonzalo.figueroa\Desktop\GES\GES001i\GES001i\obj\x86\Debug\GES001i.csproj.GenerateResource.Cache
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_1I\Modificacion\GES001i\GES001i\bin\Debug\GES001i.exe.config
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_1I\Modificacion\GES001i\GES001i\obj\x86\Debug\Interop.AyudaSpread.dll
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_1I\Modificacion\GES001i\GES001i\obj\x86\Debug\AxInterop.AyudaSpread.dll
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_1I\Modificacion\GES001i\GES001i\obj\x86\Debug\GES001i.csproj.ResolveComReference.cache
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_1I\Modificacion\GES001i\GES001i\obj\x86\Debug\GES001i.exe
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_1I\Modificacion\GES001i\GES001i\obj\x86\Debug\GES001i.pdb
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_1I\Modificacion\GES001i\GES001i\bin\Debug\GES001i.exe
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_1I\Modificacion\GES001i\GES001i\bin\Debug\GES001i.pdb
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_1I\Modificacion\GES001i\GES001i\bin\Debug\Interop.AyudaSpread.dll
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_1I\Modificacion\GES001i\GES001i\bin\Debug\AxInterop.AyudaSpread.dll
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_1I\Modificacion\GES001i\GES001i\obj\x86\Debug\GES001i.frmMantConfGES.resources
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_1I\Modificacion\GES001i\GES001i\obj\x86\Debug\GES001i.frmSetGES.resources
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_1I\Modificacion\GES001i\GES001i\obj\x86\Debug\GES001i.Properties.Resources.resources
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_1I\Modificacion\GES001i\GES001i\obj\x86\Debug\GES001i.csprojResolveAssemblyReference.cache
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_1I\Modificacion\GES001i\GES001i\obj\x86\Debug\GES001i.csproj.GenerateResource.Cache
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\bin\Debug\GES001i.exe.config
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\obj\x86\Debug\Interop.AyudaSpread.dll
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\obj\x86\Debug\AxInterop.AyudaSpread.dll
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\obj\x86\Debug\GES001i.csproj.ResolveComReference.cache
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\obj\x86\Debug\GES001i.exe
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\obj\x86\Debug\GES001i.pdb
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\bin\Debug\GES001i.exe
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\bin\Debug\GES001i.pdb
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\bin\Debug\Interop.AyudaSpread.dll
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\bin\Debug\AxInterop.AyudaSpread.dll
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\obj\x86\Debug\GES001i.csprojResolveAssemblyReference.cache
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\obj\x86\Debug\GES001i.frmMantConfGES.resources
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\obj\x86\Debug\GES001i.frmSetGES.resources
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\obj\x86\Debug\GES001i.Properties.Resources.resources
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\obj\x86\Debug\GES001i.csproj.GenerateResource.Cache
+\\informatica24\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\bin\Debug\GES001i.exe.config
+\\informatica24\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\obj\x86\Debug\Interop.AyudaSpread.dll
+\\informatica24\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\obj\x86\Debug\AxInterop.AyudaSpread.dll
+\\informatica24\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\obj\x86\Debug\GES001i.csproj.ResolveComReference.cache
+\\informatica24\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\obj\x86\Debug\GES001i.exe
+\\informatica24\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\obj\x86\Debug\GES001i.pdb
+\\informatica24\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\bin\Debug\GES001i.exe
+\\informatica24\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\bin\Debug\GES001i.pdb
+\\informatica24\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\bin\Debug\Interop.AyudaSpread.dll
+\\informatica24\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\bin\Debug\AxInterop.AyudaSpread.dll
+\\informatica24\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\obj\x86\Debug\GES001i.csprojResolveAssemblyReference.cache
+\\informatica24\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\obj\x86\Debug\GES001i.frmMantConfGES.resources
+\\informatica24\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\obj\x86\Debug\GES001i.frmSetGES.resources
+\\informatica24\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\obj\x86\Debug\GES001i.Properties.Resources.resources
+\\informatica24\Proyectos\SistemaEntregables\Ges\GES001i\GES001i\obj\x86\Debug\GES001i.csproj.GenerateResource.Cache
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\Ges_versiones\GES001i\GES001i\bin\Debug\GES001i.exe.config
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\Ges_versiones\GES001i\GES001i\obj\x86\Debug\Interop.AyudaSpread.dll
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\Ges_versiones\GES001i\GES001i\obj\x86\Debug\AxInterop.AyudaSpread.dll
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\Ges_versiones\GES001i\GES001i\obj\x86\Debug\GES001i.csproj.ResolveComReference.cache
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\Ges_versiones\GES001i\GES001i\obj\x86\Debug\GES001i.exe
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\Ges_versiones\GES001i\GES001i\obj\x86\Debug\GES001i.pdb
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\Ges_versiones\GES001i\GES001i\bin\Debug\GES001i.exe
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\Ges_versiones\GES001i\GES001i\bin\Debug\GES001i.pdb
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\Ges_versiones\GES001i\GES001i\bin\Debug\Interop.AyudaSpread.dll
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\Ges_versiones\GES001i\GES001i\bin\Debug\AxInterop.AyudaSpread.dll
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\Ges_versiones\GES001i\GES001i\obj\x86\Debug\GES001i.csprojResolveAssemblyReference.cache
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\Ges_versiones\GES001i\GES001i\obj\x86\Debug\GES001i.frmMantConfGES.resources
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\Ges_versiones\GES001i\GES001i\obj\x86\Debug\GES001i.frmSetGES.resources
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\Ges_versiones\GES001i\GES001i\obj\x86\Debug\GES001i.Properties.Resources.resources
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\Ges_versiones\GES001i\GES001i\obj\x86\Debug\GES001i.csproj.GenerateResource.Cache
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\pruebas ges\GES001i\GES001i\bin\Debug\GES001i.exe.config
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\pruebas ges\GES001i\GES001i\obj\x86\Debug\Interop.AyudaSpread.dll
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\pruebas ges\GES001i\GES001i\obj\x86\Debug\AxInterop.AyudaSpread.dll
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\pruebas ges\GES001i\GES001i\obj\x86\Debug\GES001i.csproj.ResolveComReference.cache
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\pruebas ges\GES001i\GES001i\obj\x86\Debug\GES001i.exe
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\pruebas ges\GES001i\GES001i\obj\x86\Debug\GES001i.pdb
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\pruebas ges\GES001i\GES001i\bin\Debug\GES001i.exe
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\pruebas ges\GES001i\GES001i\bin\Debug\GES001i.pdb
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\pruebas ges\GES001i\GES001i\bin\Debug\Interop.AyudaSpread.dll
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\pruebas ges\GES001i\GES001i\bin\Debug\AxInterop.AyudaSpread.dll
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\pruebas ges\GES001i\GES001i\obj\x86\Debug\GES001i.csprojResolveAssemblyReference.cache
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\pruebas ges\GES001i\GES001i\obj\x86\Debug\GES001i.frmMantConfGES.resources
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\pruebas ges\GES001i\GES001i\obj\x86\Debug\GES001i.frmSetGES.resources
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\pruebas ges\GES001i\GES001i\obj\x86\Debug\GES001i.Properties.Resources.resources
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\SistemaEntregables\Ges\pruebas ges\GES001i\GES001i\obj\x86\Debug\GES001i.csproj.GenerateResource.Cache
