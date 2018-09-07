@@ -1,0 +1,36 @@
+CREATE OR REPLACE PACKAGE FALP.PCK_GES001I AS
+
+
+
+PROCEDURE P_TRAE_PARAMETROS (PIN_TIPO   IN NUMBER, 
+                             PIN_DESC   IN VARCHAR2, 
+                             OUT_CURSOR OUT SYS_REFCURSOR);
+
+
+PROCEDURE P_TRAE_PAQUETES (PIN_TIPO in number,
+                           pin_desc in varchar2, 
+                           OUT_CURSOR OUT SYS_REFCURSOR)  ;
+
+PROCEDURE P_GRABA_PATOLOGIA (pin_patologia IN NUMBER,
+                             PIN_USUARIO   IN varchar2, 
+                             PIN_VIGENCIA   IN varchar2, 
+                             POUT_ID       OUT NUMBER);
+
+procedure p_graba_det (pin_id_patologia in number,
+                       pin_patologia_det in number,
+                       pin_etapa        in number,
+                       pin_sub_etapa    in number,
+                       pin_paquete      in number,
+                       pin_dia_fonasa   in number,
+                       pin_dia_contrato in number,
+                       pin_user         in varchar2,
+                       pin_vigencia         in varchar2 ) ;
+                       
+-- AGREGAR METODO 28-05-2018
+ 
+ PROCEDURE P_CARGAR_CANASTA (OUT_CURSOR OUT SYS_REFCURSOR);
+ 
+ PROCEDURE P_ANULAR (pin_patologia IN NUMBER);
+
+END;
+/

@@ -1,0 +1,206 @@
+CREATE OR REPLACE PACKAGE BODY FALP.PCK_GES001I AS
+
+
+
+PROCEDURE P_TRAE_PARAMETROS (PIN_TIPO   IN NUMBER, 
+                             PIN_DESC   IN VARCHAR2, 
+                             OUT_CURSOR OUT SYS_REFCURSOR) IS
+BEGIN
+
+   OPEN OUT_CURSOR FOR
+
+
+    SELECT  PARG_CODIGO CODIGO, 
+            INITCAP (PARG_DESCRIPCION) DESCRIPCION
+    FROM    CLIN_PARAM_GRALES
+    WHERE   PARG_TIPO = PIN_TIPO
+    AND     PARG_DESCRIPCION like '%'|| PIN_DESC||'%'
+    and     parg_codigo != 0;
+    
+    
+    
+END;
+
+
+PROCEDURE P_TRAE_PAQUETES (PIN_TIPO in number,
+                           pin_desc in varchar2, 
+                           OUT_CURSOR OUT SYS_REFCURSOR) IS
+                           
+BEGIN
+
+
+    OPEN OUT_CURSOR FOR
+    
+      SELECT    CP_ID ID_PAQUETE, 
+                INITCAP (CP_DESC) PAQUETE
+      FROM      CLIN_PAQUETES
+      WHERE     CP_VIGENCIA = 0
+      AND NVL   (CP_FECHA_FIN, TO_DATE ('31/12/2020', 'DD/MM/YYYY')) >  SYSDATE
+      and       CP_ESGES='S' 
+      AND       UPPER(CP_DESC) LIKE ('%'||UPPER(DECODE(pin_desc,'',CP_DESC,pin_desc))||'%') 
+      ORDER BY  CP_DESC ASC;
+    
+    
+END; 
+
+------------------------------SEQ_GES_PATOLOGIA
+
+PROCEDURE P_GRABA_PATOLOGIA (pin_patologia IN NUMBER,
+                             PIN_USUARIO   IN varchar2, 
+                             PIN_VIGENCIA   IN varchar2, 
+                             POUT_ID       OUT NUMBER) IS 
+ cont number:=0;
+BEGIN
+
+    
+        
+         POUT_ID := SEQ_GES_PATOLOGIA.nextval;
+        insert INTO ges_patologia  
+                (GP_ID,
+                GP_ID_PATOLOGIA,
+                GP_ESTADO,
+                GP_USER_GRABA,
+                GP_FECHA_GRABA)
+        values (POUT_ID,
+                pin_patologia,
+                PIN_VIGENCIA,
+                pin_usuario,
+                sysdate);
+           
+
+
+
+
+END;
+
+procedure p_graba_det (pin_id_patologia in number,
+                       pin_patologia_det in number,
+                       pin_etapa        in number,
+                       pin_sub_etapa    in number,
+                       pin_paquete      in number,
+                       pin_dia_fonasa   in number,
+                       pin_dia_contrato in number,
+                       pin_user         in varchar2,
+                       pin_vigencia         in varchar2
+                        ) is 
+
+ cont number :=0;
+begin 
+
+
+
+    
+
+    IF pin_patologia_det=0 then 
+    
+   
+      select count(GPD_ID) into cont from   GES_PATOLOGIA_DET
+               where  GPD_GP_ID=pin_id_patologia
+               and    GPD_ETAPA=pin_etapa
+               and    GPD_SUB_ETAPA=pin_sub_etapa
+               and    GPD_PAQUETE=pin_paquete;
+               
+        if(cont=0) then 
+
+            insert into GES_PATOLOGIA_DET (
+                        GPD_ID,
+                        GPD_GP_ID,   
+                        GPD_ETAPA,   
+                        GPD_SUB_ETAPA,
+                        GPD_PAQUETE,
+                        GPD_DIA_FONASA,
+                        GPD_DIA_CONTRATO,
+                        GPD_VIGENCIA,
+                        GPD_USER_GRABA, 
+                        GPD_FECHA_GRABA )
+                values (SEQ_GES_PATOLOGIA_DET.nextval, 
+                        pin_id_patologia, 
+                        pin_etapa,
+                        pin_sub_etapa,
+                        pin_paquete,
+                        decode(pin_dia_fonasa,0, null,pin_dia_fonasa ),
+                        decode(pin_dia_contrato,0,null,pin_dia_contrato),
+                        1,
+                        pin_user,
+                        sysdate     
+                );
+        end  if;
+        
+        else 
+        
+        update GES_PATOLOGIA_DET set  GPD_ETAPA=  pin_etapa ,
+                                        GPD_SUB_ETAPA=pin_sub_etapa,
+                                        GPD_PAQUETE=pin_paquete,
+                                        GPD_DIA_FONASA=pin_dia_fonasa,
+                                        GPD_DIA_CONTRATO=pin_dia_contrato,
+                                        GPD_VIGENCIA=pin_vigencia,
+                                        GPD_USER_MODIFICA=pin_user, 
+                                        GPD_FECHA_MODIFICA=sysdate 
+
+                                  where GPD_ID=pin_patologia_det ;
+                               
+        
+        
+        
+        end if;
+
+
+
+end;
+
+
+ -- AGREGAR METODO 28-05-2018
+ 
+ 
+ PROCEDURE P_CARGAR_CANASTA (OUT_CURSOR OUT SYS_REFCURSOR) IS
+BEGIN
+
+   OPEN OUT_CURSOR FOR
+
+
+      SELECT distinct GP_ID ID_FILA,
+            GPD_ID  ID_FILA_DET,
+            GP_ID_PATOLOGIA COD_PATOLOGIA,
+            (SELECT INITCAP (PARG_DESCRIPCION)  from   CLIN_PARAM_GRALES 
+            WHERE   PARG_TIPO=81 AND PARG_CODIGO=GP_ID_PATOLOGIA ) NOM_PATOLOGIA,
+            GPD_ETAPA  COD_ETAPA,
+            (SELECT INITCAP (PARG_DESCRIPCION) FROM CLIN_PARAM_GRALES WHERE PARG_TIPO = 143 AND PARG_CODIGO= GPD_ETAPA) NOM_ETAPA,
+            GPD_SUB_ETAPA COD_SUB_ETAPA,
+            (SELECT INITCAP (PARG_DESCRIPCION) FROM CLIN_PARAM_GRALES WHERE PARG_TIPO = 144 AND PARG_CODIGO= GPD_SUB_ETAPA)NOM_SUB_ETAPA,
+            GPD_PAQUETE COD_PAQUETE,
+            (SELECT  INITCAP (CP_DESC) FROM  CLIN_PAQUETES WHERE  CP_VIGENCIA = 0 AND  CP_ID = GPD_PAQUETE  ) NOM_PAQUETE,
+            GPD_DIA_FONASA   DIA_FONASA,
+            GPD_DIA_CONTRATO DIA_CONTRATO,
+            GP_ESTADO COD_ESTAD,
+            (SELECT INITCAP (PARG_DESCRIPCION) FROM CLIN_PARAM_GRALES WHERE PARG_TIPO = 146 AND PARG_CODIGO= GP_ESTADO)NOM_ESTAD,
+            GPD_VIGENCIA VIGENCIA
+            
+    FROM    GES_PATOLOGIA,
+            GES_PATOLOGIA_DET
+            
+    WHERE    GP_ID  = GPD_GP_ID
+    and      GPD_VIGENCIA=1
+    AND      GP_ESTADO=1
+    ORDER BY 4,6,8;
+       
+END;
+
+
+PROCEDURE P_ANULAR (pin_patologia IN NUMBER) IS 
+ cont number:=0;
+BEGIN
+
+      UPDATE  GES_PATOLOGIA
+       SET   GP_ESTADO=0
+       
+      WHERE    GP_ID=pin_patologia;
+           
+
+
+END;
+            
+
+
+
+END;
+/
